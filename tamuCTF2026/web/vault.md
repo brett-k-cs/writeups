@@ -11,7 +11,9 @@ This challenge uses an instancer. To spawn a container, run `/start` in the `#va
 
 If we start up an instance, we can see it is an app where you can register to make an account and then login.
 
-![login page](./images/vault/intro.png){width=50%}
+<div align="center">
+  <img src="./images/vault/intro.png" alt="login page" width="50%"/>
+</div>
 
 After making an account, there isn't anything too interesting except for the vouchers. It looks like the intended purpose is to transfer money to another user, but if we decode a voucher from Base64
 `eyJpdiI6IkxvMHRNK0RaSTNlWHNheW9RU1FmVEE9PSIsInZhbHVlIjoiTk1lc2swaTVxVVd2RUg3eVVHL2prbDZVZ2owM0dXV09ZWjFUcWY5bzZVMmpoQmlkdnhRejJXMVhqVjRLb1VQRjNCNnZlRndzRS9qT2tNSllJVGxtVlpFSVZXZXMzakZURjFpM1N3RTRBckYwSTZqT04xRnFxTjltRzJXT2lROWFHZ1F5SnVYeDRvL2M0NUZBREE1eEV6TitnZVN2WmwxOHpDaXYyOElvRC9HbWtpV0Z4eU5zeHhqcFpKSU1PTFJjQU1ONm9hS2JHalhUZGxpUko3UXdRZWErUEF0L2NqSFZFTlFBSy9aUnhXclNCWTBlVzlEUnd1dHNBeXRmcUI1eThIYmRSekd2bWlPcjNxRmtRakNlZzYwTFpWVExlTzAydE5ad3V1ZEQwZkZPL0R4Y3NJUG1wVG1VVTc5VXRwYUkiLCJtYWMiOiI4YTAwZWZmMjJkZjNkMGI0NjE1MjQwOWE3MGY2MjJkNTVlZDZkZjdmOWRhZjcxZjhmZjhkZWY3NDNjY2RkNjBhIiwidGFnIjoiIn0=`,
